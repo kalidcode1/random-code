@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  html, body {
+    height: 100%;        /* Make sure the body takes full screen height */
+    margin: 0;           /* Remove default margin */
+    display: flex;       /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+  }
+
+  .container {
+    border: 1px solid black; /* Optional, just to see the div */
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 250px;
+         /* Center content inside div */
+    background-color: aliceblue;
+  }
+  .div-button{
+    margin-bottom: 10px;
+  }
+  input{
+     margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 8px;
+    width: 200px;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h3  style="
+  margin-bottom: 10px;
+  text-align: center;
+  ">Random password generator</h1>
+ 
+  <input class="output" type="text" placeholder=" Generate password" readonly > 
+<div class="div-button">
+  <button style="
+    background-color: black;
+    color: white;
+    "
+    onclick="randomCharacter()">
+    Generate
+  </button> 
+</div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
