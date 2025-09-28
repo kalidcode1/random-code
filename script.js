@@ -8,6 +8,8 @@ const e = String.fromCharCode(Math.ceil(Math.random()* 93) + 33)
 const f = String.fromCharCode(Math.ceil(Math.random()* 93) + 33)
 console.log(a+b+c+d+e+f)
 */
+
+  //shorter way
 let i = 0 
 const length = Math.floor(Math.random() * 5) + 12
 let storage = []
